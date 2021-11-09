@@ -23,11 +23,22 @@ public class Login_Activity extends AppCompatActivity {
         pindahRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent mainIntent = new Intent(Login_Activity.this,Register_Activity.class);
+                startActivity(mainIntent);
+                finish();
+            }
+        });
+
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
                 Intent mainIntent = new Intent(Login_Activity.this,MainActivity.class);
                 startActivity(mainIntent);
                 finish();
             }
         });
+
+
 
 
 
