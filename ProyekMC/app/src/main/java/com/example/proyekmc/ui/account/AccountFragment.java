@@ -1,5 +1,6 @@
 package com.example.proyekmc.ui.account;
 
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
@@ -20,6 +21,7 @@ import com.example.proyekmc.Login_Activity;
 import com.example.proyekmc.MainActivity;
 import com.example.proyekmc.R;
 import com.example.proyekmc.Register_Activity;
+import com.example.proyekmc.databinding.ActivityMainBinding;
 import com.example.proyekmc.databinding.FragmentAccountBinding;
 import com.example.proyekmc.databinding.FragmentActivityBinding;
 import com.example.proyekmc.ui.activity.ActivityViewModel;
@@ -41,6 +43,7 @@ public class AccountFragment extends Fragment {
 
 
     }
+
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,

@@ -7,7 +7,7 @@
     tools:context=".Login_Activity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editText_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editText_pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -48,17 +48,18 @@
         android:layout_marginTop="32dp"
         android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_user" />
 
     <Button
         android:id="@+id/button_login"
         android:layout_width="227dp"
         android:layout_height="56dp"
         android:layout_marginTop="32dp"
+        android:onClick="buttonClick"
         android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_pass" />
 
     <TextView
         android:id="@+id/textView5"
